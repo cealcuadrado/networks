@@ -2,13 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { NetworkComponent } from './shared/components/network/network.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NetworkComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

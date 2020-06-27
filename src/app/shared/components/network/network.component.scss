@@ -1,0 +1,29 @@
+@import './../../../../assets/sass/_scss/variables';
+
+a {
+  text-decoration: none;
+  color: white;
+
+  .network-container {
+    height: 250px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: box-shadow 0.1s linear;
+
+
+    .network-title {
+      padding: 1rem;
+      background-color: $base-color;
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .network-container {
+      box-shadow: 5px 5px 10px black;
+    }
+  }
+}
+

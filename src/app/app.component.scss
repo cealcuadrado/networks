@@ -1,0 +1,29 @@
+@import './../assets/sass/_scss/variables';
+
+.navbar {
+  background-color: $base-color;
+
+  img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+  }
+}
+
+main {
+  padding-top: 70px;
+}
+
+footer {
+  padding: 1rem;
+  width: inherit;
+  background-color: $base-color;
+  color: white;
+
+  .social-networks {
+    a {
+      color: white;
+      margin-right: 3px;
+    }
+  }
+}
