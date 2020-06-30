@@ -10,7 +10,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     transition: box-shadow 0.1s linear, font-size 0.1s linear;
-
+    animation: fadeIn 2s;
 
     .network-title {
       padding: 1rem;
@@ -25,5 +25,10 @@ a {
       font-size: 1.5rem;
     }
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
